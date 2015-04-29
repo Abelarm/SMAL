@@ -1,0 +1,29 @@
+<p><b> Crea Contratto</b>
+	<p style="position: relative;left:1em;">
+	Permette di Richiedere la creazione di un nuovo contratto, dopo aver scelto la tariffa da applicarvi.
+	</p>
+</p>
+
+<p><b> Modifica Contratto</b>
+	<p style="position: relative;left:1em;">
+	Dopo la scelta del contratto,permette di richiederne la modifica, scegliendo la nuova tariffa da applicarvi.
+	</p>
+</p>
+
+<p><b> Visualizza Dati Contratto</b>
+	<p style="position: relative;left:1em;">
+	Mostra i dati di un contratto dopo averlo selezionato
+	</p>
+</p>
+
+<p><b> Estratto Conto</b>
+	<p style="position: relative;left:1em;">
+	Permette di visualizzare l'estratto conto del contratto selezionato
+	</p>
+</p>
+
+<p><b> Elimina Contratto</b>
+	<p style="position: relative;left:1em;">
+	Dopo aver scelto il contratto da eliminare, inoltra la richiesta al sistema
+	</p>
+</p>

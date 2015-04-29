@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>SMAL</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="Operatore.js"></script>
+	</head>
+	<body style="background-color:grey" align="center">						
+		<div id="sfondo" style="background-color:white; width:600; height:600; border:solid black"> <!-- inizio body -->
+			<div id="header" style="display:inline;"> <!--inizio header -->
+			<img src="Logo.jpg" style="width:200;margin-top:20; margin-left:20"> </div> <!-- fine header -->
+			<div id="form" align="center" > <!-- inizio form -->
+			<form action="Autenticazione.php" method="get">
+			<fieldset id="login" style="margin-top:10;margin-right:50">
+				<legend align="center">Login </legend>
+				<table align= "center" style=" position: relative; margin: 0 auto;">
+					<tr colspan="2"> <input type="radio" name="tipo" value="Amministratori"> Admin
+					<tr colspan="2"> <input type="radio" name="tipo" value="Operatori"> Operatore
+					<tr>	
+						<td>Username: 
+						<td><input type="text" name="user" ><br>
+					<tr>
+						<td>Password:	
+				 		<td><input type="password" name="password" >
+				 	<tr>
+				 		<td colspan="2" align="center">
+					 			<input type="submit" value="Entra">
+					 			<input type="reset" value="Cancella">
+			 	</table>
+			</fieldset>
+			</form>
+		</div> <!-- fine form --> 
+		<div id="immagini" align="center" style="margin-left:19">
+			<table cellspacing="10">
+					<tr><td><img src="note.png" usemap="#sito"><map name="sito"><area shape="rect" onClick="VisualizzaRichieste()" coords="0,0,200,200"></map>
+								<td><img src="website.png" usemap="#help"><map name="help"><area shape="rect" href="no.html" coords="0,0,200,200"></map>
+									<td><img src="help_op.png" usemap="#note"></tr></table></div> <map name="note"><area shape="rect" href="no.html" coords="0,0,200,200"></map>
+		</div> <!-- fine sfondo -->
+	<body>
+<html>
+						
+					

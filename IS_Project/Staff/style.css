@@ -1,0 +1,79 @@
+#form{
+border:2;
+background-color:lightblue; 
+height:200; 
+width:400;
+margin-left:110;
+
+
+}
+	
+	#scritta{
+		position: relative;
+		top: 5;
+		}
+		
+			#bottoni{
+		position: absolute;
+		top: 230px;
+		left: 160px;
+		display: inline-block;
+	}
+	
+	#riepilogo{
+		position: relative;
+		border: 2px solid red;
+		display: inline-block;
+		top: 80px;
+		}
+	
+	.bordorosso{
+		border: 2px solid red;
+	}
+	
+	#brd-login{
+		margin: 0 auto;
+		border: 2px solid red;
+		height: 220px; 
+		width:	310px;
+		}
+	
+	
+	#login{
+		width: 230px;
+		position: relative;
+		top: 20;
+		left: 25;
+		}
+		
+	
+	#brd-sondaggio{
+		margin: 0 auto;
+		height: 350px;
+		width: 	500px;
+		border: 2px solid red;
+		}
+	
+	#brd-domande{
+		position: relative;
+		top: 30px;
+		left: 10px;
+		border: 2px solid red;
+		display: inline;
+		float: left;
+		}
+	
+	#risposte{
+		display: inline;
+		float: right;
+		border: 2px solid red;
+		position: relative;
+		top: 30px;
+		right: 10px;
+		
+		}
+	
+		
+
+	
+		
